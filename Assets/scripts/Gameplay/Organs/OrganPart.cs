@@ -37,7 +37,7 @@ namespace ProjectHKU.Gameplay
                 GameplayManager.Instance.DialogAdvance();
             }
             else level ++;
-            if (level == 2 && elementID == "Aorta")
+            if (level >= 2 && elementID == "Aorta")
             {
                 GameplayManager.Instance.DialogAdvance();
             }
